@@ -1,5 +1,5 @@
 {
-  "name": "js-to-ts",
+  "name": "{{project name}}",
   "resolution": {
     "main": "src/typings"
   },
