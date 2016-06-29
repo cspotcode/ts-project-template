@@ -15,7 +15,8 @@
   "bin": "bin/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "typedoc --tsconfig tsconfig.json src/lib"
+    "docs": "typedoc --tsconfig tsconfig.json src/lib",
+    "prepublish": "tsc -p ."
   },
   "author": {
     "name": "Andrew Bradley",
