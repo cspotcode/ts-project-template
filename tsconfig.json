@@ -15,12 +15,23 @@
     "noEmitHelpers": true,
     "pretty": true
   },
+  "typedocOptions": {
+    "includes": "src/docs",
+    "json": "bin/docs/api.json",
+    "media": "src/docs/media",
+    "mode": "modules",
+    "name": "{{project name}}",
+    "out": "bin/docs",
+    "readme": "README.md",
+    "theme": "default"
+  },
   "exclude": [
     "node_modules",
     ".idea",
     ".vscode",
     ".vagrant",
     "src/typings",
+    "src/docs",
     "bin",
     "index.js",
     "index.d.ts"

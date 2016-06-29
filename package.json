@@ -14,7 +14,8 @@
   "typings": "index.d.ts",
   "bin": "bin/cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "typedoc --tsconfig tsconfig.json src/lib"
   },
   "author": {
     "name": "Andrew Bradley",
@@ -23,6 +24,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "typedoc": "^0.4.4",
     "typescript": "^1.8.10"
   },
   "dependencies": {
