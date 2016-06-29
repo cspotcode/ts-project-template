@@ -7,8 +7,8 @@
   "homepage": "https://github.com/cspotcode/{{repository name}}",
   "bugs": "https://github.com/cspotcode/{{repository name}}/issues",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/cspotcode/{{repository name}}.git"
+    "type": "git",
+    "url": "https://github.com/cspotcode/{{repository name}}.git"
   },
   "main": "index.js",
   "typings": "index.d.ts",
