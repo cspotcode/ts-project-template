@@ -1,0 +1,2 @@
+# Helper for VSCode tasks; executes all positional arguments as a command
+"$@"

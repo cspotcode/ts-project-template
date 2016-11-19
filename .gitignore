@@ -1,7 +1,7 @@
 # IntelliJ project
 .idea
-# VSCode project
-.vscode
+# VSCode symbols cache
+.vscode/symbols.json
 # Vagrant VM
 .vagrant
 # Compiled code
